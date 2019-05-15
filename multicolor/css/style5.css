@@ -1,0 +1,42 @@
+/* Стили для оформления демо-страницы */
+
+
+/* Стили для оформления кнопок поделиться */
+
+#share {
+	width: 650px;
+	border: 1px solid #eaeaea;
+	margin: 0 auto;
+	background: #fff;
+	text-align: center;
+}
+
+.like {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+.push {
+	display: inline-block;
+	width: 22%;
+	min-width: 100px;
+	line-height: 40px;
+	margin: 5px 2px 20px 2px;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.facebook {background-color: #4267b2;}
+.facebook:hover {background-color: #365899; color: #fff;}
+ 
+.twitter {background-color: #1da1f2;}
+.twitter:hover {background-color: #1a91da; color: #fff;}
+ 
+.vkontakte {background-color: #5181b8;}
+.vkontakte:hover {background-color: #5b88bd; color: #fff;}
+ 
+.odnoklassniki {background-color: #ee8208;}
+.odnoklassniki:hover {background-color: #ee7808; color: #fff;}

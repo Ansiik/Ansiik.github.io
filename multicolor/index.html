@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content=""> 
+    <meta name="robots" content="noindex, nofollow">
     <title>Главная | Учим и Играем</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -15,7 +16,13 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet"> 
+<link rel="stylesheet" href="style5.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<meta name="description" content="Онлайн демонстрация работы кнопок поделиться в социальных сетях.">
+<link rel="canonical" href="https://webliberty.ru/support/demo/shares/">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script defer src="share.js"></script>
     <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
@@ -31,15 +38,14 @@
 	<header id="header">      
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 overflow">
-                    <div class="social-icons pull-right">
-                            <ul class="nav nav-pills">
-                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                                <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div> 
-                    </div>
+                    <div id="share">
+                        <div class="social" data-url="<?php the_permalink(); ?>" data-title="<?php the_title(); ?>">
+                            <a class="push facebook" data-id="fb"><i class="fa fa-facebook"></i></a>
+                            <a class="push twitter" data-id="tw"><i class="fa fa-twitter"></i> </a>
+                            <a class="push google-plus " data-id="gp"> <i class="fa fa-google-plus"></i></a>
+                           
+                        </div>
+                        </div>
                 </div>
             </div>
         <div class="navbar navbar-inverse " role="banner">
