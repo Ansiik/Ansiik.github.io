@@ -1,0 +1,21 @@
+#different {position: absolute;background: url(contest_files/HD_PhotoHunt_After_0001_sm.jpg) no-repeat top left;width:400px;height:600px;left:360px;top:40px;z-index:0;}
+#leaf-diff {position:absolute;background: url(contest_files/leaf.png) no-repeat top left;width:400px;height:600px;left:360px;top:40px;z-index:1;display: none;}
+#light-diff {position:absolute;background: url(contest_files/light.png) no-repeat top left;width:400px;height:600px;left:360px;top:40px;display:none;z-index:1;}
+#nolight-diff {position:absolute;background: url(contest_files/nolight.png) no-repeat top left;width:400px;height:600px;left:360px;top:40px;display:none;z-index:1;}
+#sauce-diff {position:absolute;background: url(contest_files/sauce.png) no-repeat top left;width:400px;height:600px;left:360px;top:40px;display:none;z-index:1;}
+#petal-diff {position:absolute;background: url(contest_files/petal.png) no-repeat top left;width:400px;height:600px;left:360px;top:40px;display:none;z-index:1;}
+#transparentmap {z-index:9999;position: absolute;left:360px;top:40px;}
+#form_container {display:none;color:#fff;background:#337ab7;border:2px solid #fff;position:absolute;top:180px;left:30px;z-index:9999999;padding:10px;width: 600px;border:4px solid #fecc09;border-radius: 10px;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: none;}
+body {color:#000; font-family:helvetica, arial, sans-serif;}
+#original {position:absolute;}
+#wrapper {width:930px; padding:20px 0px 20px 0px; margin:0px auto;position:relative;}
+#pop-checkbox {
+    display: none;
+  }
+  #pop-checkbox:checked + .pop-block {
+    visibility: hidden; /*чтобы освободить занимаемое место - display: none;*/
+  }

@@ -1,0 +1,201 @@
+
+body{
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	color: #616c84;
+	background: #ffffff;
+	line-height: 1.7em;
+	padding: 0;
+	margin: 0;
+	}
+
+p{
+	margin-top: 0;
+	padding-top: 0;
+	}
+
+article{
+	width: 660px;
+	height: 501px;
+	background: #f2f2f2;
+	margin: 40px auto 20px auto;
+	position: relative;
+	-webkit-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	-ms-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	-moz-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	}
+
+.pieces{
+	width: 132px;
+	height: 100px;
+	position: absolute;
+	z-index: 100;
+	-webkit-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	-ms-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	-moz-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	perspective: 1000;
+	}
+
+#piece-1{
+	top: 0;
+	left: 0;
+	background: url(https://by3301files.storage.live.com/y4p7KsXUGH8w4AMprLLoKgaH1dFZKOgfwBqOFZgFYd2F6AcLlUhDzNkprwIdjRpk9wmmf1kmASkGgQkcFWH5PG0bAfr4pNy3brg8-cbdYzYH6dFk0cSJgvg0zuTG-5qs4mYVOtsAiGgdikLcZnFCaGVGFjiOMicQDht7Y04DEcL65G1s_UZjzkV7zixR_UpU40P/Smeshariki-1_01.jpg?psid=1&width=132&height=100);
+	}
+
+#piece-2{
+	top: 0;
+	left: 132px;
+	background: url(https://by3301files.storage.live.com/y4ptrf2m8zTtQ-F004nQS7FECE9H9khc_NbP_SCGE5CTvW79ZVK-9j5d_uRWHU1h4HsXST4B6Dyo1CjNt0zawJzUOxGf5Ghieu7NNhH54I9o4MkzelknOPUSIVUEUI_8KAPS_XEhUpsnswvXriUCTfkQgFrW40xB5TgBAMquY7UIuV2AXNijV9yqtJY24mqHju3/Smeshariki-1_02.jpg?psid=1&width=132&height=100);
+}
+
+#piece-3{
+	top: 0;
+	left: 264px;
+	background: url(https://by3301files.storage.live.com/y4p_TkuxgjMCvt2Fle5-gej-rt-hEs3i_f5gms4q7AARgkJgdSuqizs4VABpJjkk6EgnYHkW8PR01QL40_3Vh0-WMG8HJbVvtP_3_6nmti4zbzm5mS-Vr5Xx44PPjtiYjHc6_qGV8s-Fm5Eed70_L6ztefVWG210TKWprYgDFkHyaxUSmh5j-pDLRFXDUg4dwrM/Smeshariki-1_03.jpg?psid=1&width=132&height=100);
+}
+#piece-4{
+	top: 0;
+	left: 396px;
+	background: url(https://by3301files.storage.live.com/y4p9xtm7M2lJ8hPXY1ToxlocYj0n1GXqML-9pp5GMBYLLGRmYQ6Ht_aZbKoAnMUtA3ygcLuXtHOz45kamL0aJRg_siMShEkqu0YIwIgqLwbv4oqjPeOZXcCw8w9nARwl1TbsEmVwBiMigZnX9_4LVv129MpOT0hd7CbTUKMFRD5M2FLUY0u5IH7o990lhdIZ8_r/Smeshariki-1_04.jpg?psid=1&width=132&height=100);
+	}
+
+#piece-5{
+	top: 0;
+	left: 528px;
+	background: url(https://by3301files.storage.live.com/y4paWIWH5O-Yp5PIXACi5aLaopi9QrQjW8KqHy5qjLQ8hwDqrWhK7BI0l3TK_H7HycMrS7zmyLEKBeZqsh3bR8EXFPlGuXIkw3mO0wyBrkTqhxNK12DlMn3TZ5fYS7p-TQgjGopi0opogYOu7uKV5lPVkMwVkrcYaiuL5UKdTzXX9DV2-zk4DHkTiqLXIOem0lJ/Smeshariki-1_05.jpg?psid=1&width=132&height=100);
+}
+
+#piece-6{
+	top: 100px;
+	left: 0;
+	background: url(https://by3301files.storage.live.com/y4pDYcxRt9RToAaqOlfSbtgYOvgwWTPMPpQA5NbGu4-FvHjNaer4ngc3-lZV5Y1hv5DTHthXh2MhRjy3tPKjklnXpmZh_kwuMpdZY2mW0groeKkkxQfyd6wfYjjwQvdMNSsAXF9-Ypki3dwTXmyBgZ3j7t0i4STUrjx3NwjpcnyfLs_DNsa2iiXu1XDmbMkl-4G/Smeshariki-1_06.jpg?psid=1&width=132&height=100);
+}
+
+#piece-7{
+		top: 100px;
+		left: 132px;
+		background: url(https://by3301files.storage.live.com/y4p_vgWgMUjAA-jp6FPgKfyzprRAxwSseCmrKvTRYlpJAhFq-8W1jJqLZcLKZodvOXuzuPMc5ZbEYC_iuYyoa0OH-ajMupBwP9Gl9j--78TbGhE67ov4L4n88I4skIrB2zLT58kHAV0Z_rO64CiMkkqIEencJK4jGqU3hToY0feWspIq1qJFwEFSB5cBOq7fLhs/Smeshariki-1_07.jpg?psid=1&width=132&height=100);
+	}
+		#piece-8{
+			top: 100px;
+			left: 264px;
+			background: url(https://by3301files.storage.live.com/y4pWlyav3wd7OoA-jW3z2xlcxEQN0OnS0EdeMpXNV-MRVn4vbUid6zPAs18GyOAe6TlZfBEbdPD_JtMH12ZwsmqlyceY4Fav758htccyxiTr0MZhdfgFWJJM4YBV6HRzgSNmZN32HDQ4TEhehh25dScUF6R-JFSdATK-JmqkQ1yBxfd91KlNcwsJfhUNbE79tgl/Smeshariki-1_08.jpg?psid=1&width=132&height=100);
+		}
+	#piece-9{
+	top: 100px;
+	left: 396px;
+	background: url(https://by3301files.storage.live.com/y4pTMRcrrfQLD_P7vN4VkcjgYJtygGyvT9_r_FoADfC4e7AdUYlrxvr7wZ9NuvcUKe6ZhmrplknkDPW6KhO2sKdLOo4v1Ct6RngIwOSHSRCTsmg9c3S7hbtn03lT-Ur6pI4I8Pb4DG7PxrikyQ87i6XkrM-CvWNyUWO5pM_daPokqOUl5TjmF28qEwSaLYHyClQ/Smeshariki-1_09.jpg?psid=1&width=132&height=100);
+}
+	#piece-10{
+		top: 100px;
+		left: 528px;
+		background: url(https://by3301files.storage.live.com/y4p_qUvEZ1CsEPVpb-330d7PIHd3YuBzbi_buLPMKGgaiVLQZTdiuvtgLBcT5z0RrzXsRzDFt-QZyRvf5fK9YGWj_OoYDTXlgGcbeuW3KLygNIkvfgGvDrvc-CSMeeVq4G-BolTtIKNSc8QFSqmWwnw1Wm3DF7sYSXX5JWAmhJA1CsalTgRVm__r5Ep5K6Z9IOP/Smeshariki-1_10.jpg?psid=1&width=132&height=100);
+	}
+		#piece-11{
+			top: 200px;
+			left: 0;
+			background: url(https://by3301files.storage.live.com/y4pzWFcVg-GNMTMobz3taiqdDOjctbsyM6ZnQfwkVRPdV6OIoyho98JCCggdzuCQtp7yOhmkDZsivpxYysdlnBCP6g74W68sU_5HgOFgF8GUx3vgmuZjly6vZ_81uJ6n_uPYoaPu9zj1Npv_3Dk3ku5kQt3fHgdzPvjNWk3ii2_PSfp8q0J8krcrwaWOVYb8xOi/Smeshariki-1_11.jpg?psid=1&width=132&height=101);
+		}
+			#piece-12{
+				top: 200px;
+				left: 132px;
+				background: url(https://by3301files.storage.live.com/y4pr6ya_1ef8iiW81CnKAoqfy00-W3RVQYabfRJ0zcbpCfYYF2ZwrHgRRit9-HZ859IVRQ5zGhg3ZZUMbYz0kHezlyTR3nltX0gRQPyi_jaqvGkxTGJjnn4A3eB5aMaNOnRmSNPqfxYD3r1bEBTVXnLgtF5k99ahgsuB85IXFPVgFmU2j8p9JNHer_tQ6f7leTM/Smeshariki-1_12.jpg?psid=1&width=132&height=101);
+	}
+	#piece-13{
+		top: 200px;
+		left: 264px;
+		background: url(https://by3301files.storage.live.com/y4pNYAPyWOCK38wBVJ4XnGSUaui7BQCnEjHTfBT-L_oMlPYitya7Tv7NaQ_-JwEdCsbT4SUUPASel94xNLuRWKhtDWtRhnbovxxQvP6Mp7SVKr2UD1u0rNhQmZrMyPN4oPlKW58BhyHcPHUJI6fyTDp12oaSwmy2A7rGH0VQutzCkgRyB_Vw5paNTAx2xyyEldg/Smeshariki-1_13.jpg?psid=1&width=132&height=101);
+	}
+		#piece-14{
+			top: 200px;
+			left: 396px;
+			background: url(https://by3301files.storage.live.com/y4pfMYEsgrgCKWamlxPclDdm0bhdCv2wWDOW9mkFVi-Bki3bz4W3ecG_-SbaikjtPgM54kh4rv1owNVpsG7lTsvxQMBzezmlUFST-s3_WymdGUca-YiCqGq5Prk1z1T3LGoIIpqMY9rNPA3JpzaRXmKEi1Yr-fl7E-biNp3JuXzZCqkfWKNY9YUQ9a7L3vIvI3V/Smeshariki-1_14.jpg?psid=1&width=132&height=101);
+	}
+			#piece-15{
+				top: 200px;
+				left: 528px;
+				background: url(https://by3301files.storage.live.com/y4pf0OANVEvnsI7rRKa5BZ7-jRmgbbOslqlEPHf0sdueDR7Ui6zRp_kqVtYWTW13uYkB-GwdvQSvTjQMxxpJI_uc5YnWGDY3wToE-fxE5jVMUS9VTXedJX8JALR9N2MXsUuvqSqbGLsSMkESMrf9KI8mO1G2HG7T-MH-HjdFDxULDzLpUkJzfCsSD7kjBPy_E4d/Smeshariki-1_15.jpg?psid=1&width=132&height=101);
+			}
+				#piece-16{
+					top: 300px;
+					left: 0;
+					background: url(https://by3301files.storage.live.com/y4p-pAQzv8yVlMUTAtL4fnvCt1ejHs1gDQDhi3Y3Nga8FsbTRhvLxX8v7n_nVDdxN54kGG9jtomX6B7bXggNHCC10NbBuks3Ak66_tMKZctuxdJC1apk-NfKagCnI-XgOJhyXoNbp6eYFRf760gb6Sw350QThh9HE2Dev5xvBjQ3xSNFFc9YuTt1QaEeu4Yife_/Smeshariki-1_16.jpg?psid=1&width=132&height=100);
+	}
+	#piece-17{
+		top: 300px;
+		left: 132px;
+		background: url(https://by3301files.storage.live.com/y4p897xebvb94MD2PCVbVOeZLrFThQZCX608ZepzPjHhRkJg3d6UhB9y6CytNBiMMqr4T4TfV9T__ZQxrt2E8GbSrFez3ZpEEKiMPp3LhiGUH-UV7OuuIlRKPcwjzraMd6l16GqW075d0iGGYJjm8802J4dzBJSVb6fQ9-3rQ8hRAkeP4uVp-CexBJPBnNZCZDj/Smeshariki-1_17.jpg?psid=1&width=132&height=100);
+		}
+	
+	#piece-18{
+		top: 300px;
+		left: 264px;
+		background: url(https://by3301files.storage.live.com/y4phLZ8qzNiKc0GIynO9VzaJcc_GVdmHMVC_W9IvdKPIcnWI-ZX3KFldVcsmd79-kcRietzexPGAWdYrowyJpBxKVtBVIaVv3e9fQgU-62Z5Cf4av2xeKAwBUXpGFdHWeUhIAEsNB55tUO0Ejl4F6HPb80mzuYgw9bTgW-H5vBb4Fi1dnfItiY0SJvCZNT_G9NR/Smeshariki-1_18.jpg?psid=1&width=132&height=100);
+	}
+	
+	#piece-19{
+		top: 300px;
+		left: 396px;
+		background: url(https://by3301files.storage.live.com/y4pyYyEfknxx6S6tAftP6K51VTol3DWFHb7yIdS6MJw6LGDUZwGIW6QiloSadRKomLKtx4XNtFzen9LUSFpljU0tmRznkXWkfK7voFzJc2Y68RA1p-2ORwOXdXTN-kEFw8Y795hDplKzAfKnLxuj72z0U-xsPNcH3tMR1XYn-m_G_N4vJV-De_11AYHmvZRIA-F/Smeshariki-1_19.jpg?psid=1&width=132&height=100);
+	}
+	#piece-20{
+		top: 300px;
+		left: 528px;
+		background: url(https://by3301files.storage.live.com/y4pgHIvr0nHuRa1G7-mca-WPK6D3DS4pUf2skyRVWeVuP0vo2tDPjIxqrqgV2vZqH55zUQ95bo3TrR2398zzAaye76dRdNFk9fN7ik8jo2uIK7qxYgBHpEwvGRoBbL4vCaWmXQ42Rr4dJ1ISy5TijXPtdSx83nUFC7yiE6L2h3V1q51I58ez49DBrU4MFIqHzSZ/Smeshariki-1_20.jpg?psid=1&width=132&height=100);
+		}
+	
+	#piece-21{
+		top: 400px;
+		left: 0;
+		background: url(https://by3301files.storage.live.com/y4peAcawuNJB7gkB3vDTOLgjdKHIgghoWWCnAlEOGZea6H8qkFRHxLhwb1LmGOgXBEkW90oIxskD61tCiC2YEqDHlJNDUJSdJmzEb2MTX3m_dzEM066T6tQ9U8DvWX7Y5OY4NG8XMvHVYmKNN10I3ypEJLiQWO6kwy3kRRWBdbBBaYcLrfwdd9D44JbPL4eLSZw/Smeshariki-1_21.jpg?psid=1&width=132&height=100);
+	}
+	
+	#piece-22{
+		top: 400px;
+		left: 132px;
+		background: url(https://by3301files.storage.live.com/y4pP7_ORmeCyuCtD2OK6-s7y5EXaG405yE4HQ8Z_EttZ3w4p0qxTJmUSOcrQzT6tRVjxvx_fzPPGGEufH-kZeTl2KR-nVncZFV7NsuixFbXAltxLfYLVHAAyqXhOjjUgP8v6Ofa-1RtRNnS5D_y05Dd8vYXIHKvwy3f1sjUt9ll8Q6PcsNeUqywH-aaRtV9i6ov/Smeshariki-1_22.jpg?psid=1&width=132&height=100);
+	}
+	
+	#piece-23{
+			top: 400px;
+			left: 264px;
+			background: url(https://by3301files.storage.live.com/y4ppwWYrIOMJJEICrgu1hIaQOv_-9wT--0KA11snyZuvCTslhr0qsttegkkb6yZr7ee73bjlIbwjfQGEEkTomuYTPpQeGm8cgrAewSCVgdu_YfI3sAFjkfesicyORzENRIs7t097DK31Zm4wYgP_m9gkeKeBAfM12XXOUZ-kcXDgqFW16S7l3UnB5-rskQaOY1R/Smeshariki-1_23.jpg?psid=1&width=132&height=100);
+		}
+		#piece-24{
+			top: 400px;
+			left: 396px;
+			background: url(https://by3301files.storage.live.com/y4pg2nREU-fPqOwpOKMwN_mU7RlBro_ydmZiMD1HinzwQtnufdgVWEVTXJ9CJDC-30r4okLw6DEhmR5611S-md-eutXYeo-MHSnnu5PVeolFydvkgAiDSZe-GZiWjP5yg0Kc_THOougzhln7VxdqJEz6obxc3fNgKNbszaoLz28DqqDfIoKfZh7ibXu43c6USSr/Smeshariki-1_24.jpg?psid=1&width=132&height=100);
+		}
+		
+		#piece-25{
+			top: 400px;
+			left: 528px;
+			background: url(https://by3301files.storage.live.com/y4pafqfRejw3bYtih_jOdy1BRGBFN-Lw4MYPtpj00iuMxPGhjpa3twuScB8VkRX-JO45nZoAK2BHFxb7aYYdJEwIFIQnuK2yafISv3Id0HmIcJSXCiuXwtR-mnAUg37Eg9w9E-aPMnHSnPOtTDZOd_QgiBTSePcdT05fSnjrSoIUEYj3PA9CrmVb15GPX1fSWeT/Smeshariki-1_25.jpg?psid=1&width=132&height=100);
+		}
+p{
+
+	text-align: center;
+	}
+
+.glow{
+	z-index: 101;
+    -webkit-box-shadow: 0px 0px 6px 0px #000000;
+  	box-shadow: 0px 0px 6px 0px #000000;
+  	transform: scale(1.1);
+	}
+
+@-webkit-keyframes animate-guage {
+	0%   { transform: scale(1.04); }
+	50%   { transform: scale(1.06); }
+	100%  { transform: scale(1.04); }
+	}
+
+.glow-2{ -webkit-transform: rotateX(360deg); }
+
+@-webkit-keyframes animate-guage-2 {
+	0%   { transform: scale(1); }
+	50%   { transform: scale(1.02); }
+	100%  { transform: scale(1); }
+	}

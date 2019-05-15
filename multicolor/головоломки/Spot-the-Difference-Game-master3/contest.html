@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Spot the Difference Game</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<!-- Call Jquery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<!-- Clicking in image map areas -->
+<script type="text/javascript">
+$(document).ready(function() {
+    // When clicked, show difference
+	$('#transparentmap AREA').click(function() { 
+	var theDifference = '#'+$(this).attr('id')+'-diff';
+	$(theDifference).css('display', 'inline');
+    $(theDifference).data('clicked', true);
+	
+	// When all differences selected/clicked, show email submission form
+	if($('#leaf-diff').data('clicked') && $('#petal-diff').data('clicked') && $('#light-diff').data('clicked') && $('#nolight-diff').data('clicked') && $('#sauce-diff').data('clicked') && $('#leaf1-diff').data('clicked') && $('#petal1-diff').data('clicked') && $('#light1-diff').data('clicked') && $('#nolight1-diff').data('clicked') && $('#sauce1-diff').data('clicked') && $('#leaf2-diff').data('clicked')) {
+		$('#form_container').css('display', 'inline');
+	}
+	
+	});
+});
+</script>
+</head>
+<body>
+<div id="wrapper">
+<div id="different"></div>
+<div id="transparentmap">
+		<img class="transparentmap" src="contest_files/transparentmap.png" usemap="#photohunt" />
+		<map name="photohunt">
+			<area id="leaf" shape ="circle" coords="45, 153, 30" />
+			<area id="light" shape ="circle" coords="104, 130, 20" />
+			<area id="nolight" shape ="circle" coords="230, 199, 20" />
+			<area id="sauce" shape ="circle" coords="290, 111, 30" />
+			<area id="petal" shape ="circle" coords="303, 258, 26" />
+			<area id="leaf1" shape ="circle" coords="24, 217, 15" />
+			<area id="light1" shape ="circle" coords="102, 219, 25" />
+			<area id="nolight1" shape ="circle" coords="162, 226, 26" />
+			<area id="sauce1" shape ="circle" coords="304, 276, 14" />
+			<area id="petal1" shape ="circle" coords="203, 60, 45" />
+			<area id="leaf2" shape ="circle" coords="307, 216, 19" />
+		</map>
+	</div><!-- end transparent map -->
+		<div id="leaf-diff"></div>
+		<div id="light-diff"></div>
+		<div id="nolight-diff"></div>
+		<div id="sauce-diff"></div>
+		<div id="petal-diff"></div>
+		<div id="leaf1-diff"></div>
+		<div id="light1-diff"></div>
+		<div id="nolight1-diff"></div>
+		<div id="sauce1-diff"></div>
+		<div id="petal1-diff"></div>
+		<div id="leaf2-diff"></div>
+		<h1></h1>
+				
+<img  src="contest_files/HD_PhotoHunt_Before_0001_sm.jpg">
+	
+
+	<div id="form_container">
+	
+		<h1>Молодец!!! Все 11 отличий были найдены.</h1>
+		<a href="javascript:history.back()"><img src="C:\Users\Admin\Desktop\диплом\template\multicolor\images\button.png" alt=""></a>
+		
+		</div><!--end main -->
+		
+	</div><!-- end form container -->
+	
+</div></div><!-- end pagebg and main -->
+</body>
+</html>

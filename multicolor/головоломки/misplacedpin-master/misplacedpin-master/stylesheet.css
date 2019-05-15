@@ -1,0 +1,57 @@
+/**
+ * Stylesheet for Misplaced Pin
+ */
+
+.game-title, #level, p
+ {
+  font-family: "Courier New", Courier, monospace;
+}
+.game-title {
+  color: DarkBlue;
+  font-variant: small-caps;
+  /*font-size: xx-large;*/
+  font-size: 46px;
+}
+#score-board {
+  width: 700px;
+  position: relative;
+  background: #d4e251;
+  border: 3px solid #fecc09;
+  border-radius: 12px;
+  text-align: center;
+}
+#level {
+  color:#1e3d6b;
+  font-size: x-large;
+  font-weight: bold;
+}
+#board-container {
+  width: 700px;
+  height: 400px;
+  position: relative;
+  background: #7FFFD4;
+  border: 3px solid  #fecc09;
+  border-radius: 12px;
+  cursor: crosshair;
+}
+#leftSide, #rightSide {
+  position: absolute;
+  /* The board size */
+  width: 350px;
+  height: 400px;
+}
+#leftSide {
+  left: 0;
+}
+#rightSide {
+  left: 350px;
+  border-left: 2px solid #fecc09;
+}
+#leftSide img, #rightSide img {
+  position: absolute;
+  cursor: pointer;
+}
+.wrapper {
+  width: 706px;
+  margin: 0 auto;
+}

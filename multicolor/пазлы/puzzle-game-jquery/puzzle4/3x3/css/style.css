@@ -1,0 +1,117 @@
+
+body{
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	color: #616c84;
+	background: #ffffff;
+	line-height: 1.7em;
+	padding: 0;
+	margin: 0;
+	}
+
+p{
+	margin-top: 0;
+	padding-top: 0;
+	}
+
+article{
+	width: 660px;
+	height: 501px;
+	background: #f2f2f2;
+	margin: 40px auto 20px auto;
+	position: relative;
+	-webkit-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	-ms-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	-moz-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	}
+
+.pieces{
+	width: 220px;
+	height: 167px;
+	position: absolute;
+	z-index: 100;
+	-webkit-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	-ms-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	-moz-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+	perspective: 1000;
+	}
+
+#piece-1{
+	top: 0;
+	left: 0;
+	background: url(https://by3301files.storage.live.com/y4p5KOCyic_jPl8HYX6edpi7IuQbMeGSSpmlOleIBagQdP3RJ0-UfZOvnYeRZevuiF89A9Nq_J6MjGGP5eOrtggUioSYa5m7uico6evPT83T_4o_XCLzcpSZhbkNVo6kNjP4xtkbGcC_A_vgxFcVraXd4vgH0depbimuKpiQaobj4nSut_vLhVEn33da0yL3SIJ/3x3_01.jpg?psid=1&width=220&height=167);
+	}
+
+#piece-2{
+	top: 0;
+	left: 220px;
+	background: url(https://by3301files.storage.live.com/y4pPiZoBvkAHnjxHs_WB3MPIMeg1tbzDTjTBF2aI8x9pmXyDG4adRpzeLTaIPKxmQaVfdEJE_fQ15HQtEMBrDvJrb6gEFtWQOE9BtWT6yEv_dy3ZYy4uZ2yrt1VW6T_B6A9fr7_0ODBdHU9BUeoLIIY9_hcvhRXknKKiMXQm5E2_sWy7v88JjhcgfL821WR0Efg/3x3_02.jpg?psid=1&width=220&height=167);
+	}
+
+#piece-3{
+	top: 0;
+	left: 440px;
+	background: url(https://by3301files.storage.live.com/y4pw2bbFqb23B2XFbd6VrFouhFAsxmfO8JJYmUw11y9Nkuur3czIU1a2S0UZfM7MtUO2QzRRHdBL6lqD7f0av93wfbIgTRx5NSZjR5fy40J2gxRqOv4Dv9GvZTR3_xCpZgZbNkD4O1A4cjUAGSBiuWOG_gM4j9e1ZHiWGSvtPTMtuz1PrpMv5tSFT74F7LFf6Bi/3x3_03.jpg?psid=1&width=220&height=167);
+	}
+
+#piece-4{
+	top: 167px;
+	left: 0;
+	background: url(https://by3301files.storage.live.com/y4pMCMl6H0XPv5DjWrxfuNgkQddopOlNhHYOjZ3x4LAgz-Fuac37w1TRK-XcEnxUAr3Jkr5Ce1cGzEww_HT8uV_q7JyDkBhlft-I23Z7tyhg6Y7u9MUHqMi9e9-8yuyEm9sO5uB7lL5mQzR4-9XzqNocxDHcTjtouBzLHhioo8GepO5sKMxtXV6KnmsZGnHqGB_/3x3_04.jpg?psid=1&width=220&height=167);
+	}
+
+#piece-5{
+	top: 167px;
+	left: 220px;
+	background: url(https://by3301files.storage.live.com/y4pQioTOVKLPfK5VwD8xp-yXDucUOw-vEeBsMGD5GNo2RrUgj8lN887E3zbacVRtmC5TiFUoHofxmvieSb_WhPr21XzyDL0vdihJCT3WvYf_srx2OtOlmsiM-baTsrrxK0yYy2xmsqpHtbdrDabDDcFU776xhn6z0el9wXWeQbAak10oBdhXmJvZO91k9TqQmWp/3x3_05.jpg?psid=1&width=220&height=167);
+	}
+
+#piece-6{
+	top: 167px;
+	left: 440px;
+	background: url(https://by3301files.storage.live.com/y4pGuVT8vejnhfoB94wVyIfgiakfLo79zx_w7108hfI4Q8ft0FAsZOqMcja0KXlAiG6-Sj2QESoNZNE9diRhNZXKuk_TDNzMMt8FkMHJLiuTyTfZhELSfll04gt3XPO1VwjRsEyYFY_XcZqiXrCYbKEB1P5UZDl164csMiuCYOgURNRrbhTeDQLJYIJ-s_rcc-B/3x3_06.jpg?psid=1&width=220&height=167);
+	}
+
+#piece-7{
+		top: 334px;
+		left: 0;
+		background: url(https://by3301files.storage.live.com/y4petF2pp-hC40pjz-gxJA6qwaBWj52J4NSFBlzJnV7bgNshUaqzQIJ3Wyo5ngbEbw0C8_XSKePX9mhkxl9uUdl8Nfp-7_4HAJAxtKqNecQ1VT4t9ze2Xl8VS6YB90AWHJu3AIohRXHqHNMVPy7kHOTE2K9qPP12Hk9LwLbUhEBXEKTdrH434DMs9wiCGbIuzmO/3x3_07.jpg?psid=1&width=220&height=167);
+		}
+		#piece-8{
+			top: 334px;
+			left: 220px;
+			background: url(https://by3301files.storage.live.com/y4pJAh-2W9yS5gXBH17B9-4_dDUaMIbx2KNDn950nQgomTWOERqDjEQd7jGcykc0DKELXSwPwfZ_c8Z5dqNFLnhGAVPkIhBXBmvRvX1d-bZb7yT73jkU28G45_rmDCUvS5q24CNKPq4xR1tBnG50ONYnryDoHxxFItTHZgcp3bpJGgqm9v4u5jR5F7Kxw0s1Zis/3x3_08.jpg?psid=1&width=220&height=167);
+			}
+
+	#piece-9{
+	top: 334px;
+	left: 440px;
+	background: url(https://by3301files.storage.live.com/y4pXa8mo9eRNCdBpeZu0Q2EANeoUGugNx1roPqBTSfMPapHV3p-8ZcmjQqqb24PK8uD0rqhorh1l-aVfTY8HFcWUnp6gQl11ECjPY569Up7mrkATPQy-aZN56qaxF5mhrIMKAeC6WDiGS581Pr5raONmPF0alEwMVbGFywWx9zb4uYSCj2e6MvcawebwrTZ-TYr/3x3_09.jpg?psid=1&width=220&height=167);
+	}
+p{
+
+	text-align: center;
+	}
+
+.glow{
+	z-index: 101;
+    -webkit-box-shadow: 0px 0px 6px 0px #000000;
+  	box-shadow: 0px 0px 6px 0px #000000;
+  	transform: scale(1.1);
+	}
+
+@-webkit-keyframes animate-guage {
+	0%   { transform: scale(1.04); }
+	50%   { transform: scale(1.06); }
+	100%  { transform: scale(1.04); }
+	}
+
+.glow-2{ -webkit-transform: rotateX(360deg); }
+
+@-webkit-keyframes animate-guage-2 {
+	0%   { transform: scale(1); }
+	50%   { transform: scale(1.02); }
+	100%  { transform: scale(1); }
+	}
