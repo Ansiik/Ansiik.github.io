@@ -77,7 +77,8 @@ $(document).ready(function(){
 				
 				if( level == 2 ){
 					$('#wrap .num').removeAttr('disabled').val('');
-					n1.val(0).attr('disabled','disabled');		
+					n1.val(0).attr('disabled','disabled');
+					n3.val('/').attr('disabled','disabled');
 					n4.val(3).attr('disabled','disabled');		
 					n5.val(3).attr('disabled','disabled');
 				}
@@ -89,12 +90,14 @@ $(document).ready(function(){
 				}
 				if( level == 4 ){
 					$('#wrap .num').removeAttr('disabled').val('');
-					n1.val(5).attr('disabled','disabled');		
+					n1.val(5).attr('disabled','disabled');
+					n3.val('/').attr('disabled','disabled');
 					n4.val(5).attr('disabled','disabled');		
 					n5.val(10).attr('disabled','disabled');
 				}
 				if( level == 5 ){
 					$('#wrap .num').removeAttr('disabled').val('');
+					n3.val('/').attr('disabled','disabled');
 					n4.val(8).attr('disabled','disabled');		
 					n5.val(6).attr('disabled','disabled');
 				}
