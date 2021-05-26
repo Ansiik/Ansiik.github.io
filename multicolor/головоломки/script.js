@@ -424,8 +424,8 @@ HTMLActuator.prototype.updateScore = function (score) {
 };
 
 HTMLActuator.prototype.message = function (won) {
-  var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Game over!"
+  var type    = won ? "game-won" : "Гра закінчилась";
+  var message = won ? "You win!" : "Гра закінчилась!"
 
   // if (ga) ga("send", "event", "game", "end", type, this.score);
 
@@ -434,7 +434,7 @@ HTMLActuator.prototype.message = function (won) {
 };
 
 HTMLActuator.prototype.clearMessage = function () {
-  this.messageContainer.classList.remove("game-won", "game-over");
+  this.messageContainer.classList.remove("Гра закінчилась", "Гра закінчилась");
 };
 
 
