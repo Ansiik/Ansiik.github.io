@@ -129,7 +129,7 @@ $(document).ready(function(){
 					$('#piece-11').css('left') == '330px' && $('#piece-11').css('top') == '334px' &&
 					$('#piece-12').css('left') == '495px' && $('#piece-12').css('top') == '334px' 
 				){
-					$('p').text('Отличный результат! Пазл собран за ' + secs + ' секунд и ' + moves + ' ходов!!');
+					$('p').text('Відмінний результат! Пазл складений за ' + secs + ' секунд та ' + moves + ' ходів!!');
 					$('article').addClass('glow-2');
 					moves = 0;
 				}
