@@ -193,7 +193,7 @@ $(document).ready(function(){
 					$('#piece-24').css('left') == '396px' && $('#piece-24').css('top') == '400px' &&
 					$('#piece-25').css('left') == '528px' && $('#piece-25').css('top') == '400px' 
 				){
-					$('p').text('Отличный результат! Пазл собран за ' + secs + ' секунд и ' + moves + ' ходов!!');
+					$('p').text('Відмінний результат! Пазл складений за ' + secs + ' секунд та ' + moves + ' ходів!!');
 					$('article').addClass('glow-2');
 					moves = 0;
 				}
