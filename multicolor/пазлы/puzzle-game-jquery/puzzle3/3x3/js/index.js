@@ -114,7 +114,7 @@ $(document).ready(function(){
 					$('#piece-8').css('left') == '220px' && $('#piece-8').css('top') == '334px' &&
 					$('#piece-9').css('left') == '440px' && $('#piece-9').css('top') == '334px'
 				){
-					$('p').text('Отличный результат! Пазл собран за ' + secs + ' секунд и ' + moves + ' ходов!!');
+					$('p').text('Відмінний результат! Пазл складений за ' + secs + ' секунд та ' + moves + ' ходів!!');
 					$('article').addClass('glow-2');
 					moves = 0;
 				}
