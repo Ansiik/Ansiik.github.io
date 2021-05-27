@@ -1,10 +1,4 @@
-/**
- * Misplaced Pin
- *
- * A simple spot-the-difference game using random pinned images
- *
- * Author: Renan Martins
- */
+
 
 // Global variables for the width and height of the images
 var IMAGE_WIDTH = 64;
@@ -31,8 +25,8 @@ var boardContainer = document.getElementById("board-container");
 
 // Attach event handler to the board container
 boardContainer.onclick = function gameOver() {
-  alert("Игра окончена, был выбран неверный ответ!\n\n" +
-        "Для того, чтобы начать игру сначала, кликните на зеленую кнопку\n");
+  alert("Гру закінчено, була обрана невірна відповідь!\n\n" +
+        "Для того, щоб почати гру спочатку, клікніть на зелену кнопку\n");
   // Make sure everything gets disabled
   boardContainer.onclick = null;
   theLeftSide.lastChild.onclick = null;
