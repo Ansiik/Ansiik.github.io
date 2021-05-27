@@ -148,7 +148,7 @@ $(document).ready(function(){
 					$('#piece-15').css('left') == '330px' && $('#piece-15').css('top') == '375px' &&
 					$('#piece-16').css('left') == '495px' && $('#piece-16').css('top') == '375px' 
 				){
-					$('p').text('Отличный результат! Пазл собран за ' + secs + ' секунд и ' + moves + ' ходов!!');
+					$('p').text('Відмінний результат! Пазл складений за ' + secs + ' секунд та ' + moves + ' ходів!!');
 					$('article').addClass('glow-2');
 					moves = 0;
 				}
