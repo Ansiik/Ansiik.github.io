@@ -434,9 +434,8 @@ HTMLActuator.prototype.message = function (won) {
 };
 
 HTMLActuator.prototype.clearMessage = function () {
-  this.messageContainer.classList.remove("Гра закінчилась", "Гра закінчилась");
+  this.messageContainer.classList.remove("game-won", "game-over");
 };
-
 
 
 function KeyboardInputManager() {
