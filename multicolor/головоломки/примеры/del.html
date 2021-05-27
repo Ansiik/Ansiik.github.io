@@ -70,10 +70,10 @@ $(document).ready(function(){
 			level++;
 			
 			if( level > maxLevel){
-				$('#level').text('Игра окончена, ты победил!');
+				$('#level').text('Гра закінчилась, ти молодець!');
 			}else{
 			
-				$('#level').text('Уровень: ' + level);
+				$('#level').text('Рівень: ' + level);
 				
 				if( level == 2 ){
 					$('#wrap .num').removeAttr('disabled').val('');
@@ -117,7 +117,7 @@ $(document).ready(function(){
 		<input disabled="disabled" value="=">
 		<input class="num" maxlength="1" id="n5">
 	</div>
-	<div id="level">Уровень: 1</div>
+	<div id="level">Рівень: 1</div>
 	<a href="javascript:history.back()"><img src="close.png" alt=""></a>
 	<br><br><center style="clear:both;">
 		
